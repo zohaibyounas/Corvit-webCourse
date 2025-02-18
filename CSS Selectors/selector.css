@@ -1,0 +1,58 @@
+/* universal selector */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: brown;
+} */
+
+/* class selectors*/
+/* .heading {
+  text-align: center;
+  margin: 20px 0;
+  color: yellow;
+}
+
+.para1 {
+  color: green;
+  margin-top: 10px;
+}
+
+.span1 {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+} */
+
+/* id selectors */
+/* #h3 {
+  color: blue;
+  text-align: center;
+  margin-top: 10px;
+} */
+
+/* tag selectors */
+/* p {
+  color: green;
+  margin-top: 10px;
+} */
+
+/* pseudo selectors */
+p:hover {
+  color: red;
+  margin-top: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: red;
+}
