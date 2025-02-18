@@ -1,0 +1,63 @@
+/* Apply background gradient */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: gray;
+  font-family: Arial, sans-serif;
+}
+
+/* Centered container */
+.login-container {
+  background: transparent;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Welcome text */
+h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-field {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+}
+
+/* Placeholder color */
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Login button */
+.login-btn {
+  width: 270px;
+  padding: 12px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+.login-btn:hover {
+  background: #ddd;
+}
